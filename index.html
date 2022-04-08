@@ -14,9 +14,10 @@
         <link rel="stylesheet" href="style/main.css" >
 
     </head>
-    
+
     <body>
-        <header>
+        <header>    
+
             <div class="logotitle">
                 <div class="logo">
                     <img src="images/Logo2.png">
@@ -25,32 +26,79 @@
                 <div class="title">
                     <h1>WallpaperWorld</h1>
                 </div>
+                
             </div>
 
             <div class="menu">
-                <div class="menu_element">
-                    <h3>inicio</h3>
-                </div>
-
-                <div class="menu_element">
-                    <h3>series</h3>
-                </div>
-
-                <div class="menu_element">
-                    <h3>servicios</h3>
-                </div>
-
-                <div class="menu_element">
-                    <h3>contactos</h3>
-                </div>
-
+                    <div class="menu_element desktop-only">
+                        <h3><a href="index.html">inicio</a></h3>
+                    </div>
+    
+                    <div class="menu_element desktop-only">
+                        <h3><a href="productos.html">productos</a></h3>
+                    </div>
+    
+                    <div class="menu_element desktop-only">
+                        <h3>servicios</h3>          
+                    </div>
+    
+                    <div class="menu_element desktop-only">
+                        <h3><a href="contacto.html">contacto</a></h3>
+                    </div>
             </div>
+
+            <div class="mobile-only">
+                <nav class="navbar">   
+                    <div class="ham" >  
+                    <span class="bar1"></span>  
+                    <span class="bar2"></span>  
+                    <span class="bar3"></span>  
+                    </div>  
+                </nav>
+            </div>
+
+            
+
         </header>
 
+        <nav class="navbar">
+            <div  class="nav-sub">
+                <div class="menu-mobile mobile-only">
+                    <div class="menu_element-mobile">
+                        <h1><a href="index.html">inicio</a></h1>
+                    </div>
+    
+                    <div class="menu_element-mobile">
+                        <h1><a href="productos.html">productos</a></h1>
+                    </div>
+    
+                    <div class="menu_element-mobile">
+                        <h1>servicios</h1>          
+                    </div>
+    
+                    <div class="menu_element-mobile">
+                        <h1><a href="contacto.html">contacto</a></h1>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
         <main>
+
             <div>
                 <div class="slider">
-                    <img src="images/1.jpg" alt="changeimage" title="chango"/>
+                    <div class="slider-image">
+                        <img src="images/1.jpg" alt="changeimage" title="chango"/>
+                        
+                        <div class="slider-text-title">
+                            <h2>epic wallpaper</h2>
+                        </div>
+
+                        <div class="slider-text-subtext">
+                            <p>buy now</p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -94,7 +142,7 @@
                     </div>
                     <div class="featured-element">
                         <div class="featured-element-image">
-                            <a href="https://mushokutensei.fandom.com/wiki/Mushoku_Tensei_Wiki"><img src="images/mushokutensei.jpg"></a>
+                            <a href="https://mushokutensei.fandom.com/wiki/Mushoku_Tensei_Wiki"><img src="images/mushokutensei - copia.jpg"></a>
                         </div>
                         <div class="featured-element-title">
                             <div class="featured-element-text-title">
@@ -110,7 +158,7 @@
                     </div>
                     <div class="featured-element">
                         <div class="featured-element-image">
-                            <a href="https://mob-psycho-100-espanol.fandom.com/es/wiki/Mob_Psycho_100_Espa%C3%B1ol_Wiki"><img src="images/mobpshyco100.jpg"></a>
+                            <a href="https://mob-psycho-100-espanol.fandom.com/es/wiki/Mob_Psycho_100_Espa%C3%B1ol_Wiki"><img src="images/product-18.jpg"></a>
                         </div>
                         <div class="featured-element-title">
                             <div class="featured-element-text-title">
@@ -150,8 +198,10 @@
                 <a href="https://www.milkywayediciones.com/"><h4>compra mangas en esta web</h4></a>
             </div>
         </footer>
+
+        
             
-        <script src="js/main.js"></script>
+        <script type="module" src="js/main.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
